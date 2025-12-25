@@ -1,15 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
     <title>About Me</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .about-note {
+            background-color: #fdf2e9;
+        }
+    </style>
 </head>
 <body>
-    <h2>About Me</h2>
 
-    <p>Hi, I'm Ayusha! I'm currently learning web development and creating my first set of webpages. I enjoy <strong>designing</strong>, <em>gaming</em>, and working on creative projects like video editing.</p>
+    <h2 id="special-heading">About Me</h2>
 
-    <p><a href="index.html">Home</a></p>
+    <div class="section about-note box-model">
+        <p>
+            My name is Ayusha, and I am currently learning the basics of web development.
+            I like combining <span class="emphasis">design and technology</span> to create clean webpages.
+        </p>
+
+        <p class="highlight">
+            This page is styled using external, internal, and inline CSS techniques.
+        </p>
+    </div>
+
+    <p style="color: purple;">
+        Learning CSS makes websites more attractive and user-friendly.
+    </p>
+
+    <a href="index.html">Home</a>
+
 </body>
 </html>
